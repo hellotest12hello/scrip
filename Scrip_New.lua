@@ -9877,7 +9877,6 @@ end)
 --     syn.request({
 --         Url = "http://127.0.0.1:8080/",
 --         Body = game.HttpService:JSONEncode({
---             Key = "Dit me cuoc doi"
 --         })
 --     })
 -- end 
@@ -9899,7 +9898,6 @@ end)
 --     local a = syn.request({
 --         Url = "http://localhost:25121/",
 --         Body = game.HttpService:JSONEncode({
---             Key = "Test"
 --         }),
 --         Method="POST"
 --     })
@@ -9935,8 +9933,6 @@ end)
 --     local a = syn.request({
 --         Url = "http://localhost:25121/",
 --         Body = game.HttpService:JSONEncode({
---             Key = "CheckC",
---             Cookie = cookie
 --         }),
 --         Method="POST"
 --     })
@@ -9977,8 +9973,6 @@ end)
 --         rejoined2=a
 --         local a = syn.request({
 --             Url = "http://localhost:25121/",
---             Body = game.HttpService:JSONEncode({
---                 Key = "Join",
 --                 PlaceId = game.PlaceId,
 --                 PS = Settings.PSL,
 --                 Cookie=Settings.Cookie
