@@ -8,7 +8,7 @@ function GetUi()
         end
     end
 end
-getgenv().Tvk = true
+getgenv().Tvk = false
 getgenv().Chon = true
 
 local oldcolor = {
