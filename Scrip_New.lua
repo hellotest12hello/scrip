@@ -9,7 +9,7 @@ function GetUi()
     end
 end
 getgenv().Tvk = false
-getgenv().Chon = true
+getgenv().Chon = false
 
 local oldcolor = {
     ["Border Color"] = Color3.fromRGB(131, 181, 255),
